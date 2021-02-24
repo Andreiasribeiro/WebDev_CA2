@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <!--nav style learned from https://www.youtube.com/watch?v=PwWHL3RyQgk-->
+ <head>
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Home | Andreia Portifolio</title>
+
+    <link rel="stylesheet" href="mystyle.css"/>
+
+
+ <header class="menu">
+    <nav>
+        <ul>
+            <li class="nav__links"><a href="home.php">Home</a></li>
+            <li class="nav__links"><a href="welcome.php">Welcome</a></li>
+            <li class="nav__links"><a href="resume.php">Resume</a></li>
+            <li class="nav__links"><a href="table.php">Tables</a></li>
+            <li class="nav__links"><a href="other.php">Other</a></li>
+            <li class="nav__links"><a href="more.php">More</a></li>
+            <a class="logout" href="logout.php">logout</a>
+         
+        </ul>
+    </nav>
+</header>
+
+</head>
+
+
+    <!--responsive web site-->
+            
+    <div class="container">
+        <body class="bg1">
+           
+            <div class="row">
+                <div class="col-12"></div>
+            </div>
+          
+        <div class="row">
+          <div class="col-xs-8 col-md-6">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+
+            <div class="textprincipal"> 
+                <h1>Hi, I'm Andreia</h1>
+                <h3>Designer and Web Developer</h3>
+                <p>I design and code beautifully simple things,<br> and I love what I do.</p>
+                <h3>asribeirodesign@gmail.com</h3>
+                <p>Login to see more</p>
+                <a href="login.php">
+                <button type="button" class="btn btn-secondary btn-lg">Login</button>
+            </a>
+                <p>Student number 2020402</p>
+        
+          </div>
+          </div>
+          <div class="col-2"></div>
+          
+          <div class="col-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-8">
+               
+            </div>
+
+            <div class="col-2"></div>
+            <div class="col-2"></div>
+          </div>
+        
+
+      </div>
+        
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
